@@ -1,0 +1,121 @@
+/* This is comment */
+.flex-container {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  align-content: center;
+}
+
+.header {
+  display: flex;
+  background-color: white;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.links {
+  font-size: 150%;
+  align-content: center;
+}
+
+.links a {
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.Body {
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 30px;
+  background-image: url("images/double-bubble-outline.png");
+  background-repeat: repeat;
+}
+
+#red {
+  color: #ce2121;
+  left: 10%;
+  padding: 0%;
+}
+
+#green {
+  color: #92c934;
+  width: 50%;
+  padding: 0%;
+}
+
+.Pictures {
+  display: flex;
+  width: 80%;
+}
+
+.Pictures img {
+  padding: 10px;
+  object-fit: cover;
+  height: 500px;
+  width: 275px;
+  overflow: hidden;
+}
+
+.WhiteText {
+  text-align: center;
+  color: black;
+  background-color: white;
+  position: absolute;
+  padding: 10px;
+  bottom: 11%;
+}
+
+.GreenText {
+  text-align: right;
+  color: black;
+  background-color: #92c934;
+  width: 125px;
+  position: absolute;
+  padding: 10px;
+  bottom: 3.5%;
+}
+
+#Fresh {
+  left: 45%;
+}
+
+#Sweet {
+  right: 26%;
+}
+
+#Delicious {
+  left: 88%;
+}
+
+#Breakfast {
+  left: 39.5%;
+}
+
+#Lunch {
+  right: 26%;
+}
+
+#Dinner {
+  left: 86%;
+}
+
+.Body h1 {
+  font-size: 400%;
+}
+
+.Body p {
+  font-size: 150%;
+}
+
+.Body h5 {
+  font-size: 150%;
+}
